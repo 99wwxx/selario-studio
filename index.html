@@ -157,7 +157,8 @@ ol,ul{padding:0;list-style:none}
 .hero__copy{position:absolute;left:var(--g);bottom:42px;width:var(--cw)}
 .slot{display:grid}
 .slot>*{grid-area:1/1;align-self:end}
-.hero__head{font-size:min(4.6vw,calc(var(--cw) / 9.5))}
+.hero__head{font-size:min(4.6vw,calc(var(--cw) / 9.5),7.4svh)}
+@media (max-height:780px){.hero__meta{display:none}}
 .hero__h1{font-size:1em}
 .lm{display:block;overflow:hidden;padding-bottom:.05em;margin-bottom:-.05em}
 .lm .l{display:block}
