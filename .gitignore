@@ -1,0 +1,6 @@
+# Only the website is published. Strategy, source images and tools stay local.
+*
+!.gitignore
+!index.html
+!README.md
+!.nojekyll
